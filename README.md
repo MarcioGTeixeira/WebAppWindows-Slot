@@ -1,7 +1,7 @@
 # WebAppWindows-Slot
  ## Módulo de Infraestrutura (iac) Terraform - WebApp Windows Slot - com pipeline de CI em azure DevOps.
  - Módulo WebAppWindows com Slot  
- - para utilizar o módulo, basta apenas trocar os nomes das váriaveis(source, rg, location, plan, os_type, sku_name, appservice, slot_name, tags) no arquivo main.tf do diretório root.
+ - para utilizar o módulo, basta apenas trocar os nomes das váriaveis(**rg, location, plan, os_type, sku_name, appservice, slot_name, tags**) no arquivo main.tf do diretório root.
 Pode ser utilizado, um arquivo terraform.tfvars para substituição das variavéis sem modificação do código,
 conforme exemplo: terraform apply -var-file="terraform.tfvars"
 ao final da implantação, temos o output com a url do site e do slot.  
